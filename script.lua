@@ -24,7 +24,7 @@ end
 -- Teleport tlačítko
 createButton("Teleportuj všechny", UDim2.new(0, 100, 0, 100), function()
     for _, player in pairs(Players:GetPlayers()) do
-        TeleportService:Teleport(140233560440008, player)
+        TeleportService:Teleport(140233560440008, player)  -- Zajisti, že ID mapy je správné!
     end
 end)
 
